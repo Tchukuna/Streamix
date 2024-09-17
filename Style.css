@@ -1,0 +1,223 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #E50914;
+}
+
+/* Seção 1: Banner Inicial */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    background: #0b0b0b;
+    padding: 0 50px;
+}
+
+.banner-content {
+    max-width: 50%;
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    padding: 15px 30px;
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: #b20810;
+}
+
+/* Imagem de filmes ao lado */
+.banner-image img {
+    width: 780px;
+    border-radius: 30px;
+}
+
+/* Seção 2: Disponível em Todas as Plataformas */
+.platforms {
+    text-align: center;
+    padding: 130px 20px;
+    background-color: #270101;
+}
+
+.platforms h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.platforms p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.platform-logos img {
+    width: 300px;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.platform-logos img:hover {
+    filter: none;
+}
+
+/* Seção 3: Conteúdo Exclusivo */
+.content-info {
+    padding: 130px 20px;
+    background-color: #181818;
+    text-align: center;
+}
+
+.content-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content-info p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.content-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-item img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.content-item:hover img {
+    transform: scale(1.05);
+}
+
+.content-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Seção 4: Planos */
+.plans {
+    padding: 50px 20px;
+    background-color: #270101;
+    text-align: center;
+}
+
+.plans h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.plans p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-card {
+    background-color: #140101;
+    padding: 30px;
+    border-radius: 10px;
+    width: 450px;
+    transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+}
+
+.plan-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.plan-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: #E50914;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
